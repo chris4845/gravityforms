@@ -63,7 +63,7 @@ class GFAutoUpgrade {
 				} else {
 					$new_version = '';
 				}
-				$message = $new_version . sprintf( esc_html__( '%sRegister%s your copy of Gravity Forms to receive access to automatic upgrades and support. Need a license key? %sPurchase one now%s.', 'gravityforms' ), '<a href="admin.php?page=gf_settings">', '</a>', '<a href="http://www.gravityforms.com">', '</a>' ) . '</div></td>';
+				$message = $new_version . sprintf( esc_html__( ' ' ) . '</div></td>';
 				GFAddOn::display_plugin_message( $message );
 			}
 		}
