@@ -58,7 +58,7 @@ class GFUpdate {
 				} else {
 					?>
 					<div class="gf_update_expired alert_red">
-						<?php echo esc_html( $message ) . ' ' . sprintf( esc_html( '" ">', '</a>' ); ?>
+						<?php echo esc_html( $message ) . ' ' . sprintf( esc_html( '%sRegister%s your copy1 of Gravity Forms to receive access to automatic updates and support. Need a license key? %sPurchase one now%s.', 'gravityforms' ), '<a href="admin.php?page=gf_settings">', '</a>', '<a href="http://www.gravityforms.com">', '</a>' ); ?>
 					</div>
 				<?php
 				}
